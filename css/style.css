@@ -1,0 +1,275 @@
+body { 
+    background-image: url("/images/background.png");
+    background-repeat: no-repeat;
+    background-color: #F2F0EA;
+    width: 100%;
+}
+
+
+/*-------------------*/
+
+nav a {
+    position: relative;
+    display: inline-block;
+    margin-top: 1em;
+    outline: none;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-weight: 600;
+    font-size: .9em;
+    font-family: 'Open Sans';
+    width: 15%;
+}
+
+
+/*-------------------*/
+
+nav a:hover,
+nav a:focus {
+    outline: none;}
+
+.cl-effect-14 a {
+    padding: 0 2px;
+    height: 45px;
+    line-height: 45px;}
+
+.cl-effect-14 a::before,
+.cl-effect-14 a::after {
+    position: absolute;
+    width: 45px;
+    height: 2px;
+    background: white;
+    content: '';
+    opacity: 0;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+    pointer-events: none;}
+
+.cl-effect-14 a::before {
+    top: 0;
+    left: 0;
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    transform: rotate(90deg);
+    -webkit-transform-origin: 0 0;
+    -moz-transform-origin: 0 0;
+    transform-origin: 0 0;}
+
+.cl-effect-14 a::after {
+    right: 0;
+    bottom: 0;
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    transform: rotate(90deg);
+    -webkit-transform-origin: 100% 0;
+    -moz-transform-origin: 100% 0;
+    transform-origin: 100% 0;}
+
+.cl-effect-14 a:hover::before,
+.cl-effect-14 a:hover::after,
+.cl-effect-14 a:focus::before,
+.cl-effect-14 a:focus::after {
+    opacity: 1;}
+
+.cl-effect-14 a:hover::before,
+.cl-effect-14 a:focus::before {
+    left: 50%;
+    -webkit-transform: rotate(0deg) translateX(-50%);
+    -moz-transform: rotate(0deg) translateX(-50%);
+    transform: rotate(0deg) translateX(-50%);}
+
+.cl-effect-14 a:hover::after,
+.cl-effect-14 a:focus::after {
+    right: 50%;
+    -webkit-transform: rotate(0deg) translateX(50%);
+    -moz-transform: rotate(0deg) translateX(50%);
+    transform: rotate(0deg) translateX(50%);}
+
+/*--------------------*/
+  
+header {height: 960px;
+width: auto;}
+
+/*-------------------*/
+
+.title {
+    position: absolute;
+    left: 85px;}
+
+
+/*-------------------*/
+
+.first {
+    font-family: 'raleway';
+    font-size: .8em;
+    position: relative;
+    color: white;
+    top: 820px;
+    align-content: center;}
+
+.newzealandbird {
+    position: relative;
+    font-size: 4em;
+    text-transform: uppercase;
+    font-weight: 600;
+    width: 450px;
+    padding-left: 1.3em;
+    padding-top: .2em;
+    color: #2A3C42;
+    font-family: 'Open Sans', sans-serif;}
+
+/*-------------------*/
+
+hr {width: 450px;
+    height: 3px;
+    background-color: #F8E81C;
+    color: #F8E81C;
+    border: 0;}
+
+/*-------------------*/
+.line {
+    width: 5px;
+    height: 42px;
+    float: left;
+    top:1880px;
+    left: 78px;
+    position: absolute;}
+
+.line2 {
+    padding-top: 1.5em;}
+
+.rediscovery {
+    position: absolute;
+    width: 450px;
+    padding-left: 4.7em;
+    font-size: 1em;
+    font-family: 'raleway';
+}
+
+.rediscovery2 {
+    position: absolute;
+    width: 400px;
+    padding-left: 5.9em;
+    top: 200;
+    font-size: .8em;
+    font-weight: 400;
+    font-family: 'raleway';
+}
+
+p {
+    font-family: 'raleway';
+    color: darkslategray;
+    font-weight:500;
+    padding-left: .3em;}
+
+.intro {
+    padding-top: 3.5em;}
+
+.yellowlogo {
+    padding-top: .5em;
+    position: absolute;
+}
+
+.sectionone {
+    float: left;
+    padding-left: .4em;
+    width: 44%;}
+
+
+.sectiontwo {
+    float: left;
+    width: 520px;
+    padding-left: 4.8em;
+    padding-right: 1em;
+    padding-bottom: 1em;
+    }
+
+h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5em;
+    padding-left: 3.5em;
+    padding-top: .6em;
+    color: #2A3C42;
+    }
+
+h5 { 
+    font-family: "Open Sans";
+    font-size: .8em;
+    font-weight: 600;
+    width: 65%;
+    text-align: left;
+    padding-top: .5em;
+    padding-left: 3em;
+    padding-bottom: 1em;
+    color: darkslategray;
+}
+
+
+/*-----------------------*/
+
+
+.blockquote {
+    font-family: "Open Sans";
+    font-size: 1em;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    width: 65%;
+    text-align: left;
+    padding-top: 1.8em;
+    padding-bottom: 1em;
+    color: darkslategray;}
+
+
+/*-----------------------*/
+
+.ground {width: 100%;}
+
+
+/*-----------------------*/
+
+figcaption {
+    position: relative;
+    font-family: "Open Sans";
+    text-transform: uppercase;
+    font-size: 1.2em;
+    font-weight: 600;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+    color: #88B891;
+}
+
+table {
+    width: 50%;
+    height: 30%;
+}
+
+th {
+    text-align: left;
+    font-family: "raleway";
+    font-size: 1em;
+    text-transform: uppercase;
+    border-bottom: 2px solid #F8E81C; 
+    }
+
+}
+
+td {
+    text-align: left;
+    font-family: 'raleway';
+    font-size: .9em;}
+
+tr {
+    border-bottom: 2px solid #F8E81C;
+    font-family: "raleway";}
+
+
+
+
+
+
+
+
+
