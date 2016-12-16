@@ -195,14 +195,12 @@ p {
 
 .sectionthree {
     float: left;
-    padding-left: 4.5em;
+    padding-left: 5em;
     width: 40%;
     text-align: left;
-    padding-bottom: 2em;}
+    padding-bottom: 3em;}
 
-.moretext {
-    width: 100%;
-}
+
 
 
 /*-----------------------*/
@@ -286,21 +284,39 @@ td, tr {
     padding-top: .3em;}
 
 
-    
-   #map {
-        width: 100%;
-        height: 400px;
-      }
 
 
 .NZ {
+    position: relative;
     text-align: left;
-    width: 80%;
+    width: 90%;
     font-size: 1.3em;
-    
+    padding-bottom: .5em;
+}
+
+.palegreen {
+    width: 100%;
+    font-family: "Raleway";
+    font-size: 1.3em;
 }
 
 
+.feather {width: 100%;}
 
 
+ul {
+    font-family: "Raleway";
+    font-size: 1.3em;
+}
 
+.fastfacts {
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    color: #88B891;
+}
+
+
+.underscores {
+ border-bottom: 2px solid #F8E81C;
+}
