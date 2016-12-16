@@ -226,6 +226,16 @@ h5 {
     color: darkslategray;
 }
 
+.smallprint { 
+    font-family: "Open Sans";
+    font-size: .8em;
+    font-weight: 600;
+    padding-top: .5em;
+    padding-bottom: 1.2em;
+    color: darkslategray;
+    text-align: center;
+}
+
 
 /*-----------------------*/
 
