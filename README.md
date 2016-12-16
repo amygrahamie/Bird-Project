@@ -2,7 +2,7 @@
 
 ##Bird Project
 
-###[Plain HTML](https://amygrahamie.github.io/
+###[Plain HTML](https://amygrahamie.github.io/Bird-Project/index.html)
 
 
 
