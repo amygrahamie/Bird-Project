@@ -1,10 +1,14 @@
 body { 
-    background-image: url("/images/background.png");
-    background-repeat: no-repeat;
+    margin: 0;
     background-color: #F2F0EA;
     width: 100%;
 }
 
+.scenery {
+    position: absolute;
+    z-index: -1;
+    left: 0;
+}
 
 /*-------------------*/
 
@@ -124,7 +128,7 @@ width: auto;}
 /*-------------------*/
 
 hr {width: 450px;
-    height: 3px;
+    height: 4px;
     background-color: #F8E81C;
     color: #F8E81C;
     border: 0;}
@@ -134,8 +138,8 @@ hr {width: 450px;
     width: 5px;
     height: 42px;
     float: left;
-    top:1880px;
-    left: 78px;
+    top:1870px;
+    left: 73px;
     position: absolute;}
 
 .line2 {
@@ -187,6 +191,23 @@ p {
     padding-bottom: 1em;
     }
 
+/*-----------------------*/
+
+.sectionthree {
+    float: left;
+    padding-left: 4.5em;
+    width: 40%;
+    text-align: left;
+    padding-bottom: 2em;}
+
+.moretext {
+    width: 100%;
+}
+
+
+/*-----------------------*/
+
+
 h2 {
     font-family: 'Open Sans', sans-serif;
     font-size: 1.5em;
@@ -234,7 +255,7 @@ figcaption {
     position: relative;
     font-family: "Open Sans";
     text-transform: uppercase;
-    font-size: 1.2em;
+    font-size: 1.3em;
     font-weight: 600;
     padding-top: 1.5em;
     padding-bottom: 1.5em;
@@ -249,25 +270,35 @@ table {
 th {
     text-align: left;
     font-family: "raleway";
-    font-size: 1em;
+    font-size: 1.1em;
     text-transform: uppercase;
-    border-bottom: 2px solid #F8E81C; 
+    border-bottom: 3px solid #F8E81C;
+    padding-bottom: .4em;
+    padding-right: 1em;
     }
 
-}
 
-td {
+td, tr {
     text-align: left;
     font-family: 'raleway';
-    font-size: .9em;}
-
-tr {
-    border-bottom: 2px solid #F8E81C;
-    font-family: "raleway";}
+    font-size: 1em;
+    padding-bottom: .7em;
+    padding-top: .3em;}
 
 
+    
+   #map {
+        width: 100%;
+        height: 400px;
+      }
 
 
+.NZ {
+    text-align: left;
+    width: 80%;
+    font-size: 1.3em;
+    
+}
 
 
 

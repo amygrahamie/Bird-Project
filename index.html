@@ -19,6 +19,8 @@
 <header>
    <center> 
     <div class="smoothScroll">
+        <img src="images/background.png" class="scenery">
+        
         <span>
         <nav class="cl-effect-14"> 
         <a href="#extinct" class="Effect-14">Extinct Bird</a> 
@@ -88,6 +90,7 @@
     <img src="images/tree2.svg">
     
     <center>
+        
     <section class="blockquote">
 <blockquote>&ldquo;It originally occurred throughout forest and grass ecosystems. Today it is restricted to alpine tussock grasslands on the mainland and feeds primarily on juices from the bases of snow tussock and a species of fern rhizome. It eats introduced grasses on the islands. It usually lays two eggs and chicks can begin breeding at the end of their first year, but usually start in their second. It is long-lived, probably 14-20 years.&rdquo;</blockquote>
 
@@ -101,7 +104,7 @@
 <center>
 <figcaption>Estimated carrying capacity of islands with Takahe.</figcaption>
     
-<table class="animated fade in">
+<table>
   <tr>
     <th>Island</th>
     <th>Size (ha)</th>
@@ -129,7 +132,7 @@
   <tr>
     <td>Tiritiri</td>
     <td>210</td>
-    <td>mixed forest/grass</td>
+    <td>Mixed forest/grass</td>
     <td>10</td>
   </tr>
 </table>    
@@ -138,17 +141,21 @@
 <img src="images/ground.svg">
     
     
-<section>
+<section class="moretext">
     
-<h2>Vanished Birds Include 12-Foot Moa</h2>
-
-<p>Before the arrival of Capt. James Cook in 1769, birds were the dominant land vertebrates. The only land mammals were the dog, a Polynesian rat, and two species of bats. The dog and rat had been introduced by the Maoris on their second migration, about A. D. 1150. *</p>
+<h2>Vanished Birds Include 12-Foot MOA</h2>
+<center>
+    <section class="sectionthree">
+<p>Before the arrival of Capt. James Cook in 1769, birds were the dominant land vertebrates. The only land mammals were the dog, a Polynesian rat, and two species of bats. The dog and rat had been introduced by the Maoris on their second migration, about A. D. 1150.</p>
 
 <p>After the Maoris had caused the extinction of the huge flightless moa, one species of which was twelve feet high, European settlement brought about more extensive changes. Ferrets, stoats, and weasels were introduced to control a plague of rabbits, and these, with cats, dogs, and other predators, virtually sealed the fate of numerous native species, among them the takahe.</p>
 
 <p>The first living takahe known to Europeans was purposely killed and eaten. It was caught by a sealing gang on Resolution Island, near the southwest end of South Island , in 1849. Two years later a party of Maoris caught a second bird in Thompson Sound, about forty miles farther north.</p>
 
 <p>Luckily, the skins of both birds were obtained by Mr. W. D. B. Mantell, who in 1847 had discovered the semi fossil remains of the North Island variety (duly named Notornis mantelli by Sir Richard Owen, of London). The skins were sent to the British Museum.</p>
+    </section>
+        
+<section class="sectionthree">
 
 <p>Twenty-eight years passed before another specimen appeared. A rabbiter's dog caught it near the south end of Lake Te Anau. The bird was destined for the cooking pot when it was rescued by a farm manager and eventually sold to a museum in Dresden, Germany, for £105.</p>
 
@@ -157,15 +164,37 @@
 <p>The fourth specimen was caught by a dog on the shore of Middle Fiord of Lake Te Anau in 1898. The bird was bought by the Government for £250 to ensure that it remained in New Zealand. Preserved in the Otago Museum at Dunedin, it still is the only mounted specimen in the country, for no more takahe were known until Dr. Orbell's discovery.</p>
 
 <p>Notornis Valley, in South Island's Murchison Mountains, lies only six miles from a main road; yet it hid the takahe from human sight for decades. From boyhood Dr. G. B. Orbell, an Invercargill physician, reiused to believe the creature lost. After thirty years his quest succeeded; Dr. Orbell tracked the takahe to the scene of its last stand in one of the wildest parts of the Dominion.</p>
+        </section>
+    </center>
+    </section>
+<br>
 
+<h2 class="NZ">New Zealand Fiordland Shelters the Takahe, or Notornis, a Bird Long Thought Extinct</h2>
+    <div id="map"></div>
+    <script>
+      function initMap() {
+        var uluru = {lat: -25.363, lng: 131.044};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 6,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
+    </script>
+<script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap">
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?AIzaSyBc1d2X7q7rySmBxbHbQXK524UVYXG8Xn0=YOUR_API_KEY&callback=initMap"
+  async defer>
+</script>
 
-<!-- Image: new-zealand.png -->
-<figure>
-<img src="images/new-zealand.png" alt="Map of New Zealand" title="Map of New Zealand"/>
-<figcaption>New Zealand Fiordland Shelters the Takahe, or Notornis, a Bird Long Thought Extinct</figcaption>
-</figure>
     
-</section>
+
+    
+    
     
 <section>
 
