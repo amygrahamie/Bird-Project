@@ -207,7 +207,8 @@ h5 {
 
 /*-----------------------*/
 
-
+.twotrees {position: relative;
+margin: 0;}
 .ground {width: 100%;}
 .leafs {width: 100%;}
 .birdies {
