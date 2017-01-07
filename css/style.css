@@ -6,7 +6,7 @@ body {
 
 
 .parallax {
-background-image: url("images/background.png");
+background-image: url(../images/Background.png);
 /* Set a specific height */
 height: 620px;
 
