@@ -228,7 +228,7 @@ h5 {
 
 /*-----------------------*/
 
-
+.tree {width: 100%;}
 .ground {width: 100%;}
 .leafs {width: 100%;}
 .birdies {
@@ -297,7 +297,6 @@ td, tr{
 }
 
 
-.feather {width: 100%;}
 
 
 ul {
