@@ -34,13 +34,27 @@ background-attachment: fixed;}
     padding-bottom: 45em;
     z-index: -1;}
 
-.container  {
+
+.container { 
     position: absolute;
     margin: 0;
-    background-color: #2A353D;
+    background-color: #F2F0EA;
     width: 100%;
     top: auto;
+    padding-bottom: 3em;
+        }
+
+.container2  {
+    position: absolute;
+    background-color: #2A353D;
+    width: 100%;
     }
+
+.twotrees {
+    position: absolute;
+    z-index: 1;
+    margin-top: -360px;
+}
 
 /*-------------------*/
 
@@ -146,6 +160,13 @@ hr {width: 450px;
     text-align: left;
     padding-bottom: 3em;}
 
+.sectionfour {
+    float: left;
+    padding-left: 5em;
+    width: 40%;
+    text-align: left;
+    padding-bottom: 4em;}
+
 /*-----------------------*/
 
 
@@ -207,8 +228,7 @@ h5 {
 
 /*-----------------------*/
 
-.twotrees {position: relative;
-margin: 0;}
+
 .ground {width: 100%;}
 .leafs {width: 100%;}
 .birdies {
